@@ -88,19 +88,19 @@ R-squared Score: 0.60
 ## Tools Used
 - Python:core programming language
 - Pandas: For data loading, manipulation, and cleaning.
-NumPy: For numerical computations and handling arrays.
-Matplotlib: Used for creating basic plots.
-Seaborn: For enhanced visualizations, including heatmaps and histograms.
-Scikit-learn:Linear Regression modeling and evaluation
-Google Colab: Used as the coding environment:
+- NumPy: For numerical computations and handling arrays.
+- Matplotlib: Used for creating basic plots.
+- Seaborn: For enhanced visualizations, including heatmaps and histograms.
+- Scikit-learn:Linear Regression modeling and evaluation
+= Google Colab: Used as the coding environment:
 
 ---
 
-## Key Insights
-Area, number of bedrooms, and furnishing status had strong correlations with house price.
+ ## Key Insights
+- Area, bedrooms, bathrooms, and air conditioning showed strong positive correlation with house price.
+- Furnishing status (e.g., unfurnished) showed negative correlation, suggesting it affects value perception.
+- Removing extreme outliers helped stabilize model performance and improved generalization on new data.
+- Although linear regression worked reasonably well, there’s room to explore advanced models for improved accuracy (e.g., Random Forest or Gradient Boosting).
+- Visualizations such as correlation heatmaps and scatter plots provided clear insight into relationships and model behavior.
 
-Capping outliers improved model performance without data loss.
-
-The model can predict housing prices with moderate accuracy.
-
-One-hot encoding and log transformation (optional) helped normalize and prepare the data for regression.
+In summary, this project demonstrates how linear regression can effectively predict house prices based on key property features such as area, bathrooms, and furnishing status.
