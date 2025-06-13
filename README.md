@@ -68,8 +68,4 @@ plt.grid(True)
 plt.show()
 
 -----
-###  Model Evaluation
-Evaluated using the following metrics:
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-R-squared Score (R²)
+
