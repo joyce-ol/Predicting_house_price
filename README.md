@@ -57,6 +57,7 @@ plt.title('Feature Correlation Heatmap')
 plt.show()
 
 ### Actual vs Predicted Prices
+
 plt.scatter(y_test, predictions, alpha=0.7, color='teal')
 plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
@@ -65,6 +66,7 @@ plt.grid(True)
 plt.show()
 
 ---
+
 ## ✅ Model Evaluation
 
 
