@@ -56,6 +56,7 @@ sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.title('Feature Correlation Heatmap')
 plt.show()
 
+---
 
 ## 📉 Actual vs Predicted Prices
 Visualizing how well the model performed in predicting price values:
