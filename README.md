@@ -37,7 +37,7 @@ This project is part of my **internship at Oasis Infobyte**, where I built a reg
 - Capped extreme values in the `price` column using the Interquartile Range (IQR) method
 - Converted all categorical variables to binary using `pd.get_dummies()`
 - Selected features using correlation with the target
-- Scaled features using `StandardScaler`
+
 
 ---
 
@@ -58,16 +58,49 @@ plt.show()
 ```
 
 ### Actual vs Predicted Prices
+Visualizing how well the model performed in predicting price values suing scatter plot
 
+```python
 plt.scatter(y_test, predictions, alpha=0.7, color='teal')
 plt.xlabel("Actual Price")
 plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted Prices")
 plt.grid(True)
 plt.show()
+```
 
 ---
 
 ## ✅ Model Evaluation
+Evaluated using the following metrics:
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+R-squared Score (R²)
 
+Test Set Performance (Capped Price):
 
+Mean Squared Error:1998062879950.31
+Root Mean Squared Error: 1,430,372.86
+R-squared Score: 0.60
+
+---
+
+## Tools Used
+Python:core programming language
+Pandas: For data loading, manipulation, and cleaning.
+NumPy: For numerical computations and handling arrays.
+Matplotlib: Used for creating basic plots.
+Seaborn: For enhanced visualizations, including heatmaps and histograms.
+Scikit-learn:Linear Regression modeling and evaluation
+Google Colab: Used as the coding environment:
+
+---
+
+## Key Insights
+Area, number of bedrooms, and furnishing status had strong correlations with house price.
+
+Capping outliers improved model performance without data loss.
+
+The model can predict housing prices with moderate accuracy.
+
+One-hot encoding and log transformation (optional) helped normalize and prepare the data for regression.
