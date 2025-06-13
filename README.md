@@ -86,8 +86,8 @@ R-squared Score: 0.60
 ---
 
 ## Tools Used
-**Python:core programming language
-**Pandas: For data loading, manipulation, and cleaning.
+- Python:core programming language
+- Pandas: For data loading, manipulation, and cleaning.
 NumPy: For numerical computations and handling arrays.
 Matplotlib: Used for creating basic plots.
 Seaborn: For enhanced visualizations, including heatmaps and histograms.
