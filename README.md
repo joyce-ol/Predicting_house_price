@@ -56,10 +56,9 @@ sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.title('Feature Correlation Heatmap')
 plt.show()
 
-**## Actual vs Predicted Prices**
-Visualizing how well the model performed in predicting price values using scatter plot
 
-python
+## 📉 Actual vs Predicted Prices
+Visualizing how well the model performed in predicting price values:
 
 plt.scatter(y_test, predictions, alpha=0.7, color='teal')
 plt.xlabel("Actual Price")
@@ -67,19 +66,3 @@ plt.ylabel("Predicted Price")
 plt.title("Actual vs Predicted Prices")
 plt.grid(True)
 plt.show()
-
-✅ Model Evaluation
-Evaluated using the following metrics:
-
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-R-squared Score (R²)
-
-📊 Test Set Performance (Capped Price):
-
-Mean Squared Error: 2,045,966,532,461.50
-Root Mean Squared Error: 1,430,372.86
-R-squared Score: 0.60
-
