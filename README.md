@@ -79,9 +79,11 @@ R-squared Score (R²)
 
 Test Set Performance (Capped Price):
 
-Mean Squared Error:1998062879950.31
-Root Mean Squared Error: 1,430,372.86
-R-squared Score: 0.60
+Training Performance:
+MSE: 209062074566.50, RMSE: 457233.06, R²: 0.9322
+
+Test Performance:
+MSE: 2275535313863.77, RMSE: 1508487.76, R²: 0.5498
 
 ---
 
